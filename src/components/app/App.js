@@ -6,24 +6,19 @@ function App() {
 
   const country = [
     {name: 'Беларусь (BY)', value: 1},
-    {name: 'Европа (EU)', value: 2},
-    {name: 'СНГ (CIS)', value: 3}
+    {name: 'Австрия (AT)', value: 2},
+    {name: 'Азербайджан (AZ)', value: 3},
+    {name: 'Россия (RU)', value: 4},
+    {name: 'Украина (UA)', value: 5}
   ];
  
-  const region = [
-      {name: 'Брестская область', value: 1},
-      {name: 'Витебская область', value: 2},
-      {name: 'Гродненская область', value: 3},
-      {name: 'Гомельская область', value: 4},
-      {name: 'Минская область', value: 5},
-      {name: 'Могилевская область', value: 6},
-    ]
+
   
 
   return (
     <div className='container'>
       <Header />
-      <Main country={country} region={region} />
+      <Main country={country} />
     </div>
   );
 }
